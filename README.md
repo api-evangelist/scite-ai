@@ -1,4 +1,4 @@
-# scite-ai
+# Scite
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-scite-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://scite.ai/
+Scite provides AI‑powered tools for researchers to discover, evaluate, and organize scientific literature. Part of the Research Solutions family, Scite indexes over 1.6 billion citations, partners with 44+ publishers, and serves 2 million users worldwide. Its platform offers Smart Citations that show supporting or contradicting evidence for claims, an AI assistant, full‑text search, collections, and integration with tools like Zotero.
+
+**Areas:** AI · Research · Literature · Citation · Analytics · Platform
+
+## Scite on APIs.io
+
+Everything profiled for Scite is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/scite-ai/](https://apis.io/providers/scite-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (14)
+
+- [Scite API](https://apis.io/apis/scite-ai/scite-api/) — Scite API provides access to citation data, tallies, paper metadata, and reference check.
+- [Scite Assistant API](https://apis.io/apis/scite-ai/scite-ai-assistant-api/) — Interact with the scite Assistant, an AI-powered research assistant that retrieves relevant scientific literature and generates cited responses. ## How It…
+- [Scite Authors API](https://apis.io/apis/scite-ai/scite-ai-authors-api/) — Retrieve author metadata and papers by author slug.
+- [Scite Collections API](https://apis.io/apis/scite-ai/scite-ai-collections-api/) — Create, retrieve and remove collections (called Dashboards in the UI).
+- [Scite Evidence API](https://apis.io/apis/scite-ai/scite-ai-evidence-api/) — Search patents, clinical trials, and grants via the Resolute evidence datasets. Requires an API token with a per-dataset scope (`evidence:patents:api`,…
+- [Scite Funders API](https://apis.io/apis/scite-ai/scite-ai-funders-api/) — DOI-level article data for a given funder (funding institution), including publisher, journal (ISSN), year and Smart Citation tallies. Build funding-spend…
+- [Scite Journal API](https://apis.io/apis/scite-ai/scite-ai-journal-api/) — Retrieve aggregate information about journals by ISSN. ### ISSN Format ### A valid ISSN is in the format `dddd-dddC`, where: ``` - d = any decimal digit…
+- [Scite Paper recommendations API](https://apis.io/apis/scite-ai/scite-ai-paper-recommendations-api/) — Get recommended papers to read given a DOI. Using the Recommendations API for commercial or research use requires a separate license agreement not covered…
+- [Scite Papers API](https://apis.io/apis/scite-ai/scite-ai-papers-api/) — Retrieve paper metadata by DOI. Paper metadata includes such fields as title, journal, detectededitorial notices and so on.
+- [Scite Reference Check API](https://apis.io/apis/scite-ai/scite-ai-reference-check-api/) — Schedule and retrieve reference check jobs. Note that a paid license is required for this feature (please email sales@scite.ai for more information). For an…
+- [Scite References API](https://apis.io/apis/scite-ai/scite-ai-references-api/) — Retrieve references to and from publications by DOI. Note that these endpoints require an API token for usage.
+- [Scite Search API](https://apis.io/apis/scite-ai/scite-ai-search-api/) — Search metadata and citation statements in scite. Using the Search API for commercial or research use requires a separate license agreement not covered by…
+- [Scite Smart Citation Graph API](https://apis.io/apis/scite-ai/scite-ai-smart-citation-graph-api/) — Retrieve citations at the in-text level between and from papers by DOI. For example, given a DOI, get a list of citing DOIs including the section and…
+- [Scite Tallies API](https://apis.io/apis/scite-ai/scite-ai-tallies-api/) — Retrieve scite smart citation tallies by DOI.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Scite Agentic Access](https://apis.io/agentic-access/scite-ai/scite-ai-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Scite Ai Context](https://apis.io/jsonld/scite-ai/scite-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Scite API Rules](https://apis.io/rules/scite-ai/scite-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Scite Authentication](https://apis.io/security/scite-ai/scite-ai-authentication/)
+- [Scite Domain Security](https://apis.io/security/scite-ai/scite-ai-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Scite Plans Pricing](https://apis.io/plans/scite-ai/scite-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://scite.ai/)
+- [Documentation](https://docs.scite.ai/)
+- [Getting started](https://docs.scite.ai/quickstart)
+- [API reference](https://docs.scite.ai/api-reference/)
+- [Pricing](https://docs.scite.ai/pricing-and-plans)
+- [Changelog](https://docs.scite.ai/changelog)
+- [Blog](https://scite.ai/blog)
+- [Terms of service](https://scite.ai/terms)
+- [Privacy policy](https://scite.ai/policy)
+- [Status](https://status.scite.ai)
+
+## API Evangelist rating
+
+**Kin Score 55.0** — strong · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 52.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 28.6 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 59.1 |
+
+**Agent readiness 56.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | mostly (partial credit) |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/scite-ai/](https://apis.io/providers/scite-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Scite: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/scite-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
